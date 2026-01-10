@@ -103,7 +103,8 @@ From the project root directory:
 run_all_scripts.bat
 ```
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
+
 Thanks to all contributors and researchers who made this work possible
 
 Special thanks to the open-source community for the tools and libraries used in this project
