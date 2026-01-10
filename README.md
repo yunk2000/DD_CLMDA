@@ -5,10 +5,7 @@
 This project is a comprehensive multi-modal code analysis framework designed to process and analyze source code through multiple perspectives including text sequences, dynamic paths, and graph structures. The system integrates multiple machine learning techniques for cross-domain code analysis and vulnerability detection.
 
 ## 🏗️ Project Architecture
-`1
-1
-1`
-
+```
 ├── Text_Sequence/          # Text sequence processing module
 │   ├── or_ast_generator.py            # Original code AST generation
 │   ├── or_ast_to_sequence.py          # AST to sequence conversion
@@ -52,6 +49,7 @@ This project is a comprehensive multi-modal code analysis framework designed to 
 │   └── run_all_scripts.bat            # One-click execution script
 │
 └── run_all_scripts.bat    # Main controller script (run all modules)
+```
 
 ## 🚀 Getting Started
 
@@ -60,18 +58,54 @@ Python 3.8+
 Required Python packages (see requirements.txt)
 
 ### Installation
-Clone the repository:
-`
+1. Clone the repository:
+```
 git clone https://github.com/yourusername/code-analysis-framework.git
 cd code-analysis-framework
-`
+```
 
-Install required dependencies:
-`
+2. Install required dependencies:
+```
 pip install -r requirements.txt
-`
+```
 
-Ensure all required data files are in place (consult data/README.md)
+3. Ensure all required data files are in place (consult data/README.md)
 
+
+
+### Usage
+
+Method 1: Run Individual Modules
+
+Navigate to each module folder and execute the batch script:
+```
+# Module 1: Text Sequence Analysis
+cd Text_Sequence
+run_all_scripts.bat
+
+# Module 2: Dynamic Path Analysis  
+cd ../Dynamic_Path
+run_all_scripts.bat
+
+# Module 3: Graph Structure Analysis
+cd ../Figure_Structure
+run_all_scripts.bat
+
+# Module 4: Feature Fusion
+cd ../Feature_Fusion
+run_all_scripts.bat
+```
+
+Method 2: Run All Modules (One-click)
+
+From the project root directory:
+```
+run_all_scripts.bat
+```
+
+🙏 Acknowledgments
+Thanks to all contributors and researchers who made this work possible
+
+Special thanks to the open-source community for the tools and libraries used in this project
 
 
