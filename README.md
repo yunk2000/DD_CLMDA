@@ -69,7 +69,9 @@ cd code-analysis-framework
 pip install -r requirements.txt
 ```
 
-3. Ensure all required data files are in place (consult data/README.md)
+3. Ensure all required data files are in place 
+
+4. It is required to follow the Joern and Frida frameworks independently. The installation details are the online visible steps. For reference, please visit: https://github.com/SySeVR/SySeVR.git And https://hanshuliang.blog.csdn.net/article/details/121253563?fromshare=blogdetail&sharetype=blogdetail&sharerId=121253563&sharerefer=PC&sharesource=weixin_45673600&sharefrom=from_link
 
 
 
